@@ -1,6 +1,7 @@
 # eslint-plugin-import-service
 
-import service
+import xxx from 'dubbo/service/com.dianwoxx.xxx.<ClassName>'
+ClassName: should be lowercase
 
 ## Installation
 
@@ -13,7 +14,7 @@ $ npm i eslint --save-dev
 Next, install `@dwd/eslint-plugin-import-service`:
 
 ```
-$ npm install eslint-plugin-import-service --save-dev
+$ npm install @dwd/eslint-plugin-import-service --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@dwd/eslint-plugin-import-service` globally.
@@ -36,7 +37,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "@dwd/import-service/lowercase-service-path": "errow"
+        "@dwd/import-service/lowercase-service-path": "error"
     }
 }
 ```

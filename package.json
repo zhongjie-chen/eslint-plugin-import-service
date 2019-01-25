@@ -1,6 +1,6 @@
 {
   "name": "@dwd/eslint-plugin-import-service",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "import service",
   "keywords": [
     "eslint",
@@ -10,7 +10,7 @@
   "author": "chenzhongjie",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "node ./tests/index.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
